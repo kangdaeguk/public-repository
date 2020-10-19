@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo {
+    flex-basis: 200px;
+}
+
+.main-menubar {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.notice-header {
+    display: flex;
+}
+
+.staff-header {
+    display: flex;
+    justify-content: center;
+}
+
+.staff-img {
+    width: 100px; height: 100px;
+    object-fit: cover;
+}
+
+.staff-name {
+    justify-content: center;
+}
+
+.footer-info {
+    background-color: black;
+    color: white;
+    display: flex;
+}
