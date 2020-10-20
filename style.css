@@ -1,23 +1,127 @@
+.master {
+    width: auto;
+    height: auto;
+/*    border: 1px solid red;*/
+}
+
+/*main CSS*/
 .main {
     display: flex;
     justify-content: center;
+    font-size: 50px;
+/*    border: 1px solid red;*/
 }
 
-.main-logo {
-    flex-basis: 200px;
+.main-header {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+}
+
+.main-img {
+    display: flex;
+}
+
+.main-img1 {
+    background-image: url(jpg/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    /*border: 1px solid red;*/
 }
 
 .main-menubar {
+    /*border: 1px solid red;*/
+    display: flex;
+    margin: 100px 10px 10px 200px;
+    padding-left: 200px;
+}
+
+/*intro css*/
+.intro {
+    text-align: center;
+    font-size: 50px;
+}
+
+.intro-title {
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid red;*/
+}
+
+.intro-header {
+    justify-content: center;
+    font-size: 35px;
+/*    border: 1px solid red;*/
+}
+
+.intro-info {
+    width: 350px;
+    height: 350px;
+}
+
+.intro-img {
     display: flex;
 }
 
-.intro {
-    display: flex;
+.intro-img1 {
+    background-image: url(jpg/kangkamchan1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    width: 350px;
+    height: 200px;
+}
+.intro-img2 {
+    background-image: url(jpg/leesunsin1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    width: 350px;
+    height: 200px;
+}
+
+.intro-font {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    line-height: 150px;
+    }
+
+/*notice css*/
+.notice {
     justify-content: center;
+    text-align: center;
+    font-size: 50px;
 }
 
 .notice-header {
     display: flex;
+    font-size: 20px;
+    width: 800px;
+    height: 70px;
+    border: 1px solid red;
+
+}
+
+.notice-title {
+    width: 800px;
+    height: 70px;
+    padding: 10px 0px 0px 0px;
+}
+
+.notice-date {
+    width: 800px;
+    height: 70px;
+    padding: 40px 0px 0px 0px;
+}
+
+/*staff css*/
+.staff {
+    text-align: center;
+    font-size: 50px;
 }
 
 .staff-header {
@@ -25,17 +129,55 @@
     justify-content: center;
 }
 
+.staff-info {
+    width: 200px;
+    height: 250px;
+}
+
 .staff-img {
-    width: 100px; height: 100px;
-    object-fit: cover;
+    display: flex;
+}
+
+.staff-img1 {
+    background-image: url(jpg/honggildong.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.staff-img2 {
+    background-image: url(jpg/kangkamchan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.staff-img3 {
+    background-image: url(jpg/leesunsin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
 }
 
 .staff-name {
-    justify-content: center;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+/*footer css*/
+.footer {
+    margin-top: 50px;
 }
 
 .footer-info {
+    display: flex;
     background-color: black;
     color: white;
-    display: flex;
+    font-size: 20px;
 }
