@@ -100,7 +100,7 @@
 .notice-header {
     display: flex;
     font-size: 20px;
-    width: 800px;
+    width: auto;
     height: 70px;
     border: 1px solid red;
 
@@ -110,12 +110,14 @@
     width: 800px;
     height: 70px;
     padding: 10px 0px 0px 0px;
+    text-align: center;
 }
 
 .notice-date {
-    width: 800px;
+    width: 400px;
     height: 70px;
-    padding: 40px 0px 0px 0px;
+    padding: 40px 20px 0px 0px;
+    text-align: right;
 }
 
 /*staff css*/
